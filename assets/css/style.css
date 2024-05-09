@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+}
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 30px;
+}
+
+div.header-logo {
+    width: 10%;
+}
+
+img.header-logo {
+    width: 100%;
+}
+
+.nav_ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+div.nav {
+    width: 30%;
+    border-inline: solid 1px gray;
+    padding-inline: 5%;
+}
+
+.nav-button {
+    color: rgb(107, 107, 107);
+    font-size: 20px; 
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    color: rgb(255, 255, 255);
+}
+
+div.socialnet {
+    display: flex;
+    width: 10%;
+    padding-block: 8.5px;
+    border-inline-end: solid 1px gray;
+}
+
+img.social {
+    width: 50%;
+}
+
+div.personal {
+    width: 8%;
+}
+
+div.personal a {
+    text-decoration: none;
+}
+
+a button.personal-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.personal-button {
+    background: linear-gradient(45deg, #B50E0B, #72140A); 
+    border-radius: 10% / 30%;
+    color:white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 130%;
+}
+
+button.personal-button div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.personal-button img {
+    width: 25%;
+    margin: 4%;
+}
+
+/* SLIDER */
+.slider {
+    margin-block: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-img {
+    margin-inline: 1%;
+    border: solid rgb(255, 255, 255);
+    border-radius: 8% / 16%;
+    width: 40%;
+}
+
+button.slider-button-left {
+    position: absolute;
+    left: 10%;
+    background-color: rgba(32, 32, 32, 0.5);
+    border: none;
+    border-radius: 15px;
+    width: 3%;
+    height: 10%;
+    cursor: pointer;
+}
+
+button.slider-button-right {
+    position: absolute;
+    right: 10%;
+    background-color: rgba(32, 32, 32, 0.5);
+    border: none;
+    border-radius: 15px;
+    width: 3%;
+    height: 10%;
+    cursor: pointer;
+}
+
+img.slider-button {
+    width: 75%;
+}
+
+/* BLOCKS */
+
+.block {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+    
+.popular {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+    
+.arrimg {
+    width: 25px;
+}
+    
+.blockslayder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    
+}
+
+.imgslayd {
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    margin-right: 10px;
+}
