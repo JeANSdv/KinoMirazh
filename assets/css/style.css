@@ -5,13 +5,14 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-block: 30px;
 }
 
 div.header-logo {
     width: 10%;
+    padding-inline: 5%;
 }
 
 img.header-logo {
@@ -24,13 +25,15 @@ img.header-logo {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
+    padding-inline-start: 0;
+    margin-block: 0;
 }
 
 div.nav {
     width: 30%;
-    border-inline: solid 1px gray;
     padding-inline: 5%;
+    padding-block: 0.5%;
+    border-inline: 1px solid gray;
 }
 
 .nav-button {
@@ -47,17 +50,26 @@ div.nav {
 
 div.socialnet {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10%;
-    padding-block: 8.5px;
-    border-inline-end: solid 1px gray;
+    padding-inline: 5%;
+    border-inline-end: 1px solid gray;
+}
+
+.socialnet a {
+    width: 20%;
+    margin-block: 0;
+    margin-inline: 5%;
 }
 
 img.social {
-    width: 50%;
+    width: 100%;
 }
 
 div.personal {
     width: 8%;
+    padding-inline: 5%; 
 }
 
 div.personal a {
@@ -90,48 +102,6 @@ button.personal-button div {
 .personal-button img {
     width: 25%;
     margin: 4%;
-}
-
-/* SLIDER */
-.slider {
-    margin-block: 4%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.slider-img {
-    margin-inline: 1%;
-    border: solid rgb(255, 255, 255);
-    border-radius: 8% / 16%;
-    width: 40%;
-}
-
-button.slider-button-left {
-    position: absolute;
-    left: 10%;
-    background-color: rgba(32, 32, 32, 0.5);
-    border: none;
-    border-radius: 15px;
-    width: 3%;
-    height: 10%;
-    cursor: pointer;
-}
-
-button.slider-button-right {
-    position: absolute;
-    right: 10%;
-    background-color: rgba(32, 32, 32, 0.5);
-    border: none;
-    border-radius: 15px;
-    width: 3%;
-    height: 10%;
-    cursor: pointer;
-}
-
-img.slider-button {
-    width: 75%;
 }
 
 /* BLOCKS */

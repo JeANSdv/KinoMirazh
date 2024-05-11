@@ -1,0 +1,13 @@
+customer
+film category
+film
+trailers
+cinema_loc
+hall
+seats
+ticket
+session
+
+products
+product_category
+product_price
