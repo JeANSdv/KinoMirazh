@@ -1,0 +1,242 @@
+/* kafeteryu */
+
+.kofi {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    
+}
+
+.prods {
+    width: 250px;
+    height: 350px;
+    margin-top: 60px;
+    border-radius: 30px;
+    border: 10px solid rgb(99, 11, 11);
+    margin-right: 50px;
+    flex-shrink: 100;
+}
+
+.price1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -4%;
+ margin-left: 0.3%;
+}
+
+.price2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -53px;
+ margin-left: 324px;
+}
+
+.price3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -3.7%;
+ margin-left: 41.6%;
+}
+
+.price4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -3.6%;
+ margin-left: 62.5%;
+}
+.price5 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -3.7%;
+ margin-left: 83.3%;
+}
+
+
+
+
+@media screen and (max-width: 1600px) {
+    
+.price1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -4%;
+ margin-left: 0.3%;
+}
+
+.price2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -53px;
+ margin-left: 324px;
+}
+
+.price3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -3.7%;
+ margin-left: 41.6%;
+}
+
+.price4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -3.6%;
+ margin-left: 62.5%;
+}
+.price5 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 17%;
+ margin-top: -3.7%;
+ margin-left: 83.3%;
+}
+}
+
+@media screen and (max-width: 1920px) {
+    .price1 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       position: relative;
+     text-align: center;
+     font-size: 25px;
+     background: linear-gradient(45deg, #B50E0B, #72140A); 
+     border: none;
+     border-radius: 10% / 30%;
+     width: 14%;
+     margin-top: -3.1%;
+     margin-left: 0%;
+    }
+    
+    .price2 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       position: relative;
+     text-align: center;
+     font-size: 25px;
+     background: linear-gradient(45deg, #B50E0B, #72140A); 
+     border: none;
+     border-radius: 10% / 30%;
+     width: 17%;
+     margin-top: -53px;
+     margin-left: 324px;
+    }
+    
+    .price3 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       position: relative;
+     text-align: center;
+     font-size: 25px;
+     background: linear-gradient(45deg, #B50E0B, #72140A); 
+     border: none;
+     border-radius: 10% / 30%;
+     width: 17%;
+     margin-top: -3.7%;
+     margin-left: 41.6%;
+    }
+    
+    .price4 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       position: relative;
+     text-align: center;
+     font-size: 25px;
+     background: linear-gradient(45deg, #B50E0B, #72140A); 
+     border: none;
+     border-radius: 10% / 30%;
+     width: 17%;
+     margin-top: -3.6%;
+     margin-left: 62.5%;
+    }
+    .price5 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       position: relative;
+     text-align: center;
+     font-size: 25px;
+     background: linear-gradient(45deg, #B50E0B, #72140A); 
+     border: none;
+     border-radius: 10% / 30%;
+     width: 17%;
+     margin-top: -3.7%;
+     margin-left: 83.3%;
+    }
+
+}
