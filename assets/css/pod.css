@@ -38,6 +38,7 @@ body {
     .sss {
     max-width: 1280px;
     margin: auto;
+    margin-top: 100px;
     
     }
     
@@ -55,4 +56,12 @@ body {
     
     .contbezlogo {
     margin-top: 3%;
+    }
+
+    .zz {
+    display: flex;
+    }
+    
+    .vktg {
+    width: 50px;
     }

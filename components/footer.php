@@ -12,7 +12,7 @@
 
     <!-- КОНТ С ЛОГО -->
     <div class="mirazh">
-        <img src="itd/img/mirazh.png" class="pvp">
+        <img src="assets/img/mirazh.png" class="pvp">
     </div>
 
 <!-- контейнер без лого, для отступа сверху -->
@@ -103,9 +103,9 @@
     <div class="zagalovki">
         <h1>Наши соц.сети</h1>
         <div class="mega">
-            <div class="vktg">
-                    <img src="img/telegramm.png" class="alfa">
-                    <img src="img/vk.png" class="alfa">
+            <div class="zz">
+                    <img src="assets/img/telegramm.png" class="vktg">
+                    <img src="assets/img/vk.png" class="vktg">
             </div>
             </div>
     </div>
