@@ -104,7 +104,8 @@
         <h1>Наши соц.сети</h1>
         <div class="mega">
             <div class="vktg">
-                    <img src="itd/img/vktg.png" class="alfa">
+                    <img src="img/telegramm.png" class="alfa">
+                    <img src="img/vk.png" class="alfa">
             </div>
             </div>
     </div>
