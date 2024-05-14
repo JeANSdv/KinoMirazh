@@ -48,3 +48,7 @@
         <img src="assets/img/slider-img.webp" class="imgslayd">
     </div>
 </content>
+
+<?php 
+    include "components/footer.php"
+?>
