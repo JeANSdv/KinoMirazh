@@ -3,6 +3,7 @@
 ?>
 
 <content>
+<div class="border-header"></div>
 <!-- SLIDER -->
 <div class="slider">
     <div class="slider-line">
@@ -47,6 +48,7 @@
         <img src="assets/img/slider-img.webp" class="imgslayd">
         <img src="assets/img/slider-img.webp" class="imgslayd">
     </div>
+    <div class="border-footer"></div>
 </content>
 
 <?php 
