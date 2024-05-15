@@ -1,51 +1,43 @@
+.film-filt-pos {
+    position: absolute;
+    right: 0;
+    max-width: 25%;
+}
+
 .session-film-filter {
-display: flex;
-flex-direction: column;
-background-color: rgb(87, 87, 87);
-padding: 7px 7px 0 7px;
-border-radius: 12px;
-gap: 10px;
-position: fixed;
-margin-left: 60%;
-z-index: 99;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(87, 87, 87);
+    padding: 7px;
+    border-radius: 12px;
+    position: sticky;
+    top: 10px;
+    z-index: 99;
+}
+
+.select-element {
+    display: flex;
+    width: 50%;
 }
 
 .film-filter-text {
-color: white;
+    color: white;
 }
 
-.cenap {
-display: flex;
-flex-direction: column;
+.price-filt {
+    display: flex;
+    flex-direction: column;
 }
 
-.vvv {
-  color: white;
+.category-filt {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1em;
 }
 
-.gal {
-display: flex;
-gap: 5px;
-
-}
-
-.xxx {
-display: flex;
-flex-direction: row;
-gap: 50px;
-}
-
-.dir {
-display: flex;
-flex-direction: column;
-gap: 1px;
-}
-
-.lpl {
-display: flex;
-gap: 300px;
-}
-
-.age {
-display: flex;
+.age-filt {
+    display: flex;
 }
