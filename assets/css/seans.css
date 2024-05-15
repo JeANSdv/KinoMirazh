@@ -1,0 +1,51 @@
+.session-film-filter {
+display: flex;
+flex-direction: column;
+background-color: rgb(87, 87, 87);
+padding: 7px 7px 0 7px;
+border-radius: 12px;
+gap: 10px;
+position: fixed;
+margin-left: 60%;
+z-index: 99;
+}
+
+.film-filter-text {
+color: white;
+}
+
+.cenap {
+display: flex;
+flex-direction: column;
+}
+
+.vvv {
+  color: white;
+}
+
+.gal {
+display: flex;
+gap: 5px;
+
+}
+
+.xxx {
+display: flex;
+flex-direction: row;
+gap: 50px;
+}
+
+.dir {
+display: flex;
+flex-direction: column;
+gap: 1px;
+}
+
+.lpl {
+display: flex;
+gap: 300px;
+}
+
+.age {
+display: flex;
+}
