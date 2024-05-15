@@ -2,3 +2,39 @@ body {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
 }
+
+.txtlk {
+color: white;
+font-size: 25px;
+display: flex;
+justify-content: center;
+}
+
+.names {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.zdrav {
+color: white;
+font-size: 17px;
+}
+
+.namepers {
+color: white;
+font-size: 17px;
+}
+
+.block-buttons {
+margin-top: 50px;
+display: flex;
+justify-content: center;
+gap: 50px;
+
+}
+
+.pers-button {
+font-size: 20px;
+border-radius: 5px;
+}
