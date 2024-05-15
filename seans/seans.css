@@ -1,0 +1,115 @@
+body {
+background-color: black;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+
+}
+
+.seans {
+color: white;
+font-size: 20px;
+margin-bottom: 2%;
+}
+
+.cont {
+margin: 7%;
+}
+
+.kart {
+display: flex;
+gap: 3%;
+}
+
+.img {
+width: 300px;
+border-radius: 5%;
+border: 2px solid rgb(255, 255, 255);
+}
+
+.titlefilm {
+color: white;
+font-size: 25px;
+}
+
+.engtitle {
+color: white;
+opacity: 80%;
+font-size: 20px;
+}
+
+.opisanie {
+margin-top: 15%;
+color: white;
+font-size: 20px;
+}
+
+.ofilme {
+color: white;
+font-size: 17px;
+}
+
+.contfilms {
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.border {
+  border-bottom: 1px solid #9d9d9d;
+  padding: 0 0 10px;
+  margin-left: 0;
+}
+
+.filter {
+display: flex;
+flex-direction: column;
+background-color: rgb(87, 87, 87);
+padding: 7px 7px 0 7px;
+border-radius: 12px;
+gap: 10px;
+position: fixed;
+margin-left: 60%;
+z-index: 99;
+}
+
+.podbor {
+color: white;
+font-size: 17px;
+}
+
+.cenap {
+display: flex;
+flex-direction: column;
+}
+
+.vvv {
+  color: white;
+  font-size: 15px;
+}
+
+.gal {
+display: flex;
+gap: 5px;
+
+}
+
+.xxx {
+display: flex;
+flex-direction: row;
+gap: 50px;
+}
+
+.dir {
+display: flex;
+flex-direction: column;
+gap: 1px;
+}
+
+.lpl {
+display: flex;
+gap: 300px;
+}
+
+.age {
+display: flex;
+}
