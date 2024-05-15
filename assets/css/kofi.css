@@ -1,13 +1,228 @@
 /* kafeteryu */
 
-.kofi {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 90px;
+.imgs, .imgs2, .imgs3, .imgs4{
+  width: 250px;
+  height: 350px;
+  margin-top: 60px;
+  border-radius: 30px;
+  border: 10px solid rgb(99, 11, 11);
+  margin-right: 50px;
+  flex-shrink: 100;
 }
 
-.category {
+/* первый блок */
+.price1 {
+  margin-left: 201px;
+  margin-top: -81px;
+}
+
+
+.nazv1, .nazv2, .nazv3, .nazv4  {
+  margin-top: 4px;
+  margin-left: 65px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background:  #72140A;
+  border-radius: 10px;
+  text-align: center;
+  width: 15.9%;
+ display: inline-block;
+}
+
+.kofi {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 90px;
+  width: 100%;
+}
+
+
+.naz {
+  color: white;
+  font-size: 20px;
+  right: -428px;
+  top: 62px;
+ position: relative;
+ width: 0%;
+}
+
+
+
+
+/* второй блок */
+.price2 {
+  margin-left: 217px;
+  margin-top: -57px;
+}
+
+.nazv5, .nazv6, .nazv7, .nazv8 {
+  margin-top: 5px;
+  margin-left: 64px;
+  border: none;
+  color: white;
+  background: #72140A;
+  border-radius: 10px;
+  text-align: center;
+  width: 15.9%;
+ display: inline-block;
+}
+
+.kofi2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0px;
+
+}
+
+
+.naz2 {
+  color: white;
+  font-size: 20px;
+  right: -428px;
+  top: 34px;
+ position: relative;
+ width: 0%;
+}
+
+
+
+
+
+/* третий блок */
+
+.price3 {
+  margin-left: 208px;
+  margin-top: -57px; 
+}
+
+.nazv9, .nazv10, .nazv11, .nazv12 {
+  margin-top: 5px;
+  margin-left: 63px;
+  border: none;
+  color: white;
+  background: #72140A;
+  border-radius: 10px;
+  text-align: center;
+  width: 15.9%;
+ display: inline-block;
+}
+
+.kofi3 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -30px;
+
+}
+
+
+.naz3 {
+  color: white;
+  font-size: 20px;
+  right: -428px;
+  top: 19px;
+ position: relative;
+ width: 0%;
+}
+
+
+
+
+/* Четвертый блок */
+
+.price4 {
+  margin-left: 215px;
+  margin-top: -57px;
+}
+
+
+.nazv13, .nazv14, .nazv15, .nazv16 {
+  margin-top: 5px;
+  margin-left: 63px;
+  border: none;
+  color: white;
+  background:#72140A;
+  border-radius: 10px;
+  text-align: center;
+  width: 15.9%;
+ display: inline-block;
+}
+
+.kofi4 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0px;
+
+}
+
+
+.naz4 {
+  color: white;
+  font-size: 20px;
+  right: -428px;
+  top: 30px;
+ position: relative;
+ width: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .category {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -15,15 +230,7 @@
     
 }
 
-.prods {
-    width: 250px;
-    height: 350px;
-    margin-top: 60px;
-    border-radius: 30px;
-    border: 10px solid rgb(99, 11, 11);
-    margin-right: 50px;
-    flex-shrink: 100;
-}
+
 
 .price1 {
     color: rgb(255, 255, 255);
@@ -34,9 +241,9 @@
  background: linear-gradient(45deg, #B50E0B, #72140A); 
  border: none;
  border-radius: 10% / 30%;
- width: 17%;
- margin-top: -4%;
- margin-left: 0.3%;
+ width: 14%;
+ margin-top: -3%;
+ margin-left: 0%;
 }
 
 .price2 {
@@ -48,9 +255,9 @@
  background: linear-gradient(45deg, #B50E0B, #72140A); 
  border: none;
  border-radius: 10% / 30%;
- width: 17%;
- margin-top: -53px;
- margin-left: 324px;
+ width: 14%;
+ margin-top: -57px;
+ margin-left: 321px;
 }
 
 .price3 {
@@ -62,9 +269,9 @@
  background: linear-gradient(45deg, #B50E0B, #72140A); 
  border: none;
  border-radius: 10% / 30%;
- width: 17%;
- margin-top: -3.7%;
- margin-left: 41.6%;
+ width: 14%;
+ margin-top: -2.9%;
+ margin-left: 33.5%;
 }
 
 .price4 {
@@ -76,9 +283,9 @@
  background: linear-gradient(45deg, #B50E0B, #72140A); 
  border: none;
  border-radius: 10% / 30%;
- width: 17%;
- margin-top: -3.6%;
- margin-left: 62.5%;
+ width: 14%;
+ margin-top: -3%;
+ margin-left: 50%;
 }
 .price5 {
     color: rgb(255, 255, 255);
@@ -89,17 +296,14 @@
  background: linear-gradient(45deg, #B50E0B, #72140A); 
  border: none;
  border-radius: 10% / 30%;
- width: 17%;
- margin-top: -3.7%;
- margin-left: 83.3%;
+ width: 14%;
+ margin-top: -2.9%;
+ margin-left: 66.7%;
 }
 
 
-
-
-@media screen and (max-width: 1600px) {
-    
-.price1 {
+@media screen and (max-width: 1920px){
+  .price1 {
     color: rgb(255, 255, 255);
     font-size: 20px;
    position: relative;
@@ -108,53 +312,69 @@
  background: linear-gradient(45deg, #B50E0B, #72140A); 
  border: none;
  border-radius: 10% / 30%;
- width: 17%;
- margin-top: -4%;
+ width: 14%;
+ margin-top: -3.1%;
  margin-left: 0.3%;
 }
-
 .price2 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 17%;
- margin-top: -53px;
- margin-left: 324px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 14%;
+margin-top: -55px;
+margin-left: 321px;
 }
 
 .price3 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 17%;
- margin-top: -3.7%;
- margin-left: 41.6%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 14%;
+margin-top: -3.1%;
+margin-left: 34.6%;
 }
 
 .price4 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 17%;
- margin-top: -3.6%;
- margin-left: 62.5%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 14%;
+margin-top: -3%;
+margin-left: 51.8%;
 }
 .price5 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 14%;
+margin-top: -3%;
+margin-left: 68.7%;
+}
+}
+  
+
+@media screen and (max-width: 1760px){
+  .price1 {
     color: rgb(255, 255, 255);
     font-size: 20px;
    position: relative;
@@ -163,80 +383,132 @@
  background: linear-gradient(45deg, #B50E0B, #72140A); 
  border: none;
  border-radius: 10% / 30%;
- width: 17%;
- margin-top: -3.7%;
- margin-left: 83.3%;
+ width: 15%;
+ margin-top: -3.5%;
+ margin-left: 0.3%;
+}
+.price2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 15%;
+margin-top: -55px;
+margin-left: 321px;
+}
+
+.price3 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 16%;
+margin-top: -3.1%;
+margin-left: 36.6%;
+}
+
+.price4 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 15%;
+margin-top: -3.3%;
+margin-left: 55.2%;
+}
+.price5 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 15%;
+margin-top: -3.2%;
+margin-left: 73.7%;
 }
 }
 
-@media screen and (max-width: 1920px) {
-    .price1 {
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-       position: relative;
-     text-align: center;
-     font-size: 25px;
-     background: linear-gradient(45deg, #B50E0B, #72140A); 
-     border: none;
-     border-radius: 10% / 30%;
-     width: 14%;
-     margin-top: -3.1%;
-     margin-left: 0%;
-    }
-    
-    .price2 {
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-       position: relative;
-     text-align: center;
-     font-size: 25px;
-     background: linear-gradient(45deg, #B50E0B, #72140A); 
-     border: none;
-     border-radius: 10% / 30%;
-     width: 17%;
-     margin-top: -53px;
-     margin-left: 324px;
-    }
-    
-    .price3 {
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-       position: relative;
-     text-align: center;
-     font-size: 25px;
-     background: linear-gradient(45deg, #B50E0B, #72140A); 
-     border: none;
-     border-radius: 10% / 30%;
-     width: 17%;
-     margin-top: -3.7%;
-     margin-left: 41.6%;
-    }
-    
-    .price4 {
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-       position: relative;
-     text-align: center;
-     font-size: 25px;
-     background: linear-gradient(45deg, #B50E0B, #72140A); 
-     border: none;
-     border-radius: 10% / 30%;
-     width: 17%;
-     margin-top: -3.6%;
-     margin-left: 62.5%;
-    }
-    .price5 {
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-       position: relative;
-     text-align: center;
-     font-size: 25px;
-     background: linear-gradient(45deg, #B50E0B, #72140A); 
-     border: none;
-     border-radius: 10% / 30%;
-     width: 17%;
-     margin-top: -3.7%;
-     margin-left: 83.3%;
-    }
-
+@media screen and (max-width: 1680px){
+  .price1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   position: relative;
+ text-align: center;
+ font-size: 25px;
+ background: linear-gradient(45deg, #B50E0B, #72140A); 
+ border: none;
+ border-radius: 10% / 30%;
+ width: 16%;
+ margin-top: -3.5%;
+ margin-left: 0.3%;
 }
+.price2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 16%;
+margin-top: -55px;
+margin-left: 321px;
+}
+
+.price3 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 16%;
+margin-top: -3.5%;
+margin-left: 39%;
+}
+
+.price4 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 16%;
+margin-top: -3.3%;
+margin-left: 58.2%;
+}
+.price5 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ position: relative;
+text-align: center;
+font-size: 25px;
+background: linear-gradient(45deg, #B50E0B, #72140A); 
+border: none;
+border-radius: 10% / 30%;
+width: 16%;
+margin-top: -3.2%;
+margin-left: 77.7%;
+}
+} */
