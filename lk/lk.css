@@ -54,7 +54,13 @@ align-items: center;
 gap: 10px;
 }
 
-.but-activ {
+.but-activ1 {
+font-size: 20px;
+color: white;
+text-decoration: underline;
+}
+
+.but-activ2 {
 font-size: 20px;
 color: white;
 }
@@ -99,3 +105,33 @@ gap: 50px;
 }
 
 
+/* CТИЛИ ДЛЯ СТРАНИЦЫ ИСТОРИЙ */
+
+.but-activ3 {
+font-size: 20px;
+color: white;
+text-decoration: underline;
+}
+
+.tickets-history {
+background: linear-gradient(50deg, rgba(255, 255, 255, 0.3) 10%, rgba(255, 255, 255, 0) 80%), #6a6a6a;
+border-radius: 12px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px;
+gap: 15px;
+}
+
+.border-history {
+border-left: 1px solid #000000;
+opacity: 50%;
+height: 35px;
+}
+
+.nametickets-h {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
