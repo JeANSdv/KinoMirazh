@@ -8,7 +8,12 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0;
+    background-color: black;
 }
 
 div.header-logo {
@@ -144,11 +149,106 @@ button.personal-button div {
     opacity: 50%;
     padding: 0 0 10px;
     margin-top: 70px;
-  }
+}
 
-  .border-header {
+.border-header {
     border-bottom: 1px solid #9d9d9d;
     opacity: 50%;
     margin-block: 25px;
     margin-bottom: 40px;
-  }
+}
+
+/* SESSIONS */
+
+.session-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.session-date-filter {
+    margin-block: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.session-date-filter button{
+    width: 8vw;
+    height: 4vh;
+    background-color: #72140A;
+    border: 0;
+    border-radius: 5px;
+    color: azure;
+}
+
+.session-date-filter button:hover{
+    background: linear-gradient(45deg, #B50E0B, #72140A);
+}
+
+.session-date-filter button:active{
+    border: 2px solid white;
+}
+
+.session-page-films {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.session-filters {
+    max-width: 20vw;
+}
+
+.sessions-elements {
+    width: 80vw;
+    margin-inline-end: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessions-elements h1, p {
+    color: white;
+
+}
+
+.session-film {
+    display: flex;
+    flex-direction: row;
+    max-height: 30vh;
+    border-bottom: solid 2px rgba(137, 137, 137, 0.462);
+    padding-block: 1%;
+    text-decoration: none;
+}
+
+.session-film img {
+    object-fit: contain;
+    max-width: 20%;
+}
+
+.session-film-info {
+    object-fit: contain;
+    width: 80%;
+}
+
+.session-film-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.session-film-info a button {
+    width: 10vw;
+    height: 4vh;
+    background-color: #72140A;
+    border: 0;
+    border-radius: 5px;
+    color: azure;
+}
+
+.session-film-info a button:hover {
+    background: linear-gradient(45deg, #B50E0B, #72140A);
+    cursor: pointer;
+}
+
+.session-film-info a button:active {
+    border: 1px solid white;
+}

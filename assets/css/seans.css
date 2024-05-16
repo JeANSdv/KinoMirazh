@@ -1,24 +1,22 @@
-.film-filt-pos {
-    position: absolute;
-    right: 0;
-    max-width: 25%;
-}
-
 .session-film-filter {
     display: flex;
     flex-direction: column;
-    
-    background-color: rgb(87, 87, 87);
+    background-color: #72140A;
     padding: 7px;
     border-radius: 12px;
     position: sticky;
-    top: 10px;
+    top: 10vh;
     z-index: 99;
 }
 
+.session-film-filter h3, h5{
+    margin-block: 0.5em;
+    color: white;
+}
+
 .select-element {
-    display: flex;
     width: 50%;
+    color: white;
 }
 
 .film-filter-text {
@@ -27,17 +25,36 @@
 
 .price-filt {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    max-width: 90%;
 }
 
-.category-filt {
-    width: 80%;
+.price-filt input {
+    width: 50%;
+}
+
+.filt-check-block {
+    max-width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 1em;
+    row-gap: 1vw;
 }
 
-.age-filt {
-    display: flex;
+.session-film-filter button {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 1vh;
+    padding: 3px;
+}
+
+.session-film-filter button:hover {
+    border: 2px solid black;
+    padding: 1px;
+}
+
+.session-film-filter button:active {
+    border: 3px solid black;
+    padding: 0;
 }
