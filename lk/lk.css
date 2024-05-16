@@ -1,6 +1,9 @@
 body {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .txtlk {
@@ -38,3 +41,61 @@ gap: 50px;
 font-size: 20px;
 border-radius: 5px;
 }
+
+.bilets {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.activehistory {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.but-activ {
+font-size: 20px;
+color: white;
+}
+
+.cont-but-bil {
+display: flex;
+gap: 40px;
+flex-direction: column;
+}
+
+.border {
+border-bottom: 1px solid #9d9d9d;
+opacity: 50%;
+}
+
+.nametickets {
+display: flex;
+justify-content: center;
+font-size: 22px;
+color: rgb(255, 255, 255);
+}
+
+.tickets {
+background: linear-gradient(50deg, rgba(255, 255, 255, 0.3) 10%, rgba(255, 255, 255, 0) 80%), #8e0c0a;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+padding: 15px;
+}
+
+.optionsticket {
+font-size: 15px;
+color: rgb(255, 255, 255);
+}
+
+.tickcont {
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+
