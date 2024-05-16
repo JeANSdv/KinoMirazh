@@ -1,0 +1,509 @@
+@media screen and (max-width: 1920px) {
+
+/* первый блок */
+.price1 {
+    margin-left: 217px;
+    margin-top: -56px;
+  }
+  
+  
+  .nazv1  {
+    margin-top: 4px;
+    margin-left: 50px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background:  #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  
+  .naz {
+    color: white;
+    font-size: 20px;
+    right: -428px;
+    top: 62px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  /* второй блок */
+  .price2 {
+    margin-left: 216px;
+    margin-top: -57px;
+  }
+  
+  .nazv2 {
+    margin-top: 5px;
+    margin-left: 50px;
+    border: none;
+    color: white;
+    background: #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  
+  .naz2 {
+    color: white;
+    font-size: 20px;
+    right: -428px;
+    top: 34px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  
+  /* третий блок */
+  
+  .price3 {
+    margin-left: 216px;
+    margin-top: -57px; 
+  }
+  
+  .nazv3 {
+    margin-top: 5px;
+    margin-left: 50px;
+    border: none;
+    color: white;
+    background: #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  .naz3 {
+    color: white;
+    font-size: 20px;
+    right: -428px;
+    top: 19px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  /* Четвертый блок */
+  
+  .price4 {
+    margin-left: 221px;
+    margin-top: -57px;
+  }
+  
+  
+  .nazv4 {
+    margin-top: 5px;
+    margin-left: 49px;
+    border: none;
+    color: white;
+    background:#72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  .naz4 {
+    color: white;
+    font-size: 20px;
+    right: -428px;
+    top: 30px;
+   position: relative;
+   width: 0%;
+  }
+
+}
+
+
+@media screen and (max-width: 1760px){
+   /* первый блок */
+.price1 {
+    margin-left: 164px;
+    margin-top: -57px;
+  }
+  
+  
+  .nazv1  {
+    margin-top: 4px;
+    margin-left: 57px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background:  #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  
+  .naz {
+    color: white;
+    font-size: 20px;
+    right: -398px;
+    top: 62px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  /* второй блок */
+  .price2 {
+    margin-left: 163px;
+    margin-top: -57px;
+  }
+  
+  .nazv2 {
+    margin-top: 5px;
+    margin-left: 57px;
+    border: none;
+    color: white;
+    background: #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  
+  .naz2 {
+    color: white;
+    font-size: 20px;
+    right: -400px;
+    top: 34px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  /* третий блок */
+  
+  .price3 {
+    margin-left: 160px;
+    margin-top: -57px; 
+  }
+  
+  .nazv3 {
+    margin-top: 5px;
+    margin-left: 58px;
+    border: none;
+    color: white;
+    background: #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  .naz3 {
+    color: white;
+    font-size: 20px;
+    right: -406px;
+    top: 19px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  /* Четвертый блок */
+  
+  .price4 {
+    margin-left: 160px;
+    margin-top: -57px;
+  }
+  
+  
+  .nazv4 {
+    margin-top: 5px;
+    margin-left: 58px;
+    border: none;
+    color: white;
+    background:#72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  .naz4 {
+    color: white;
+    font-size: 20px;
+    right: -394px;
+    top: 30px;
+   position: relative;
+   width: 0%;
+  } 
+    
+}
+
+
+@media screen and (max-width: 1680px) {
+    /* первый блок */
+.price1 {
+    margin-left: 115px;
+    margin-top: -82px;
+  }
+  
+  
+  .nazv1  {
+    margin-top: 4px;
+    margin-left: 64px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background:  #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  
+  .naz {
+    color: white;
+    font-size: 20px;
+    right: -378px;
+    top: 62px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  /* второй блок */
+  .price2 {
+    margin-left: 123px;
+    margin-top: -57px;
+  }
+  
+  .nazv2 {
+    margin-top: 5px;
+    margin-left: 62px;
+    border: none;
+    color: white;
+    background: #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  
+  .naz2 {
+    color: white;
+    font-size: 20px;
+    right: -378px;
+    top: 34px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  
+  /* третий блок */
+  
+  .price3 {
+    margin-left: 115px;
+    margin-top: -57px; 
+  }
+  
+  .nazv3 {
+    margin-top: 5px;
+    margin-left: 64px;
+    border: none;
+    color: white;
+    background: #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  .naz3 {
+    color: white;
+    font-size: 20px;
+    right: -388px;
+    top: 60px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  /* Четвертый блок */
+  
+  .price4 {
+    margin-left: 120px;
+    margin-top: -57px;
+  }
+  
+  
+  .nazv4 {
+    margin-top: 5px;
+    margin-left: 64px;
+    border: none;
+    color: white;
+    background:#72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 16.9%;
+   display: inline-block;
+  }
+  
+  .naz4 {
+    color: white;
+    font-size: 20px;
+    right: -374px;
+    top: 64px;
+   position: relative;
+   width: 0%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+    /* первый блок */
+.price1 {
+    margin-left: 4px;
+    margin-top: -57px;
+  }
+  
+  
+  .nazv1  {
+    margin-top: 4px;
+    margin-left: 56px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background:  #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 18.9%;
+   display: inline-block;
+  }
+  
+  
+  .naz {
+    color: white;
+    font-size: 20px;
+    right: -319px;
+    top: 62px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  /* второй блок */
+  .price2 {
+    margin-left: 4px;
+    margin-top: -57px;
+  }
+  
+  .nazv2 {
+    margin-top: 5px;
+    margin-left: 56px;
+    border: none;
+    color: white;
+    background: #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 18.9%;
+   display: inline-block;
+  }
+  
+  
+  .naz2 {
+    color: white;
+    font-size: 20px;
+    right: -319px;
+    top: 62px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  
+  /* третий блок */
+  
+  .price3 {
+    margin-left: 1px;
+    margin-top: -57px; 
+  }
+  
+  .nazv3 {
+    margin-top: 5px;
+    margin-left: 56px;
+    border: none;
+    color: white;
+    background: #72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 18.9%;
+   display: inline-block;
+  }
+  
+  .naz3 {
+    color: white;
+    font-size: 20px;
+    right: -326px;
+    top: 64px;
+   position: relative;
+   width: 0%;
+  }
+  
+  
+  
+  
+  /* Четвертый блок */
+  
+  .price4 {
+    margin-left: 3px;
+    margin-top: -57px;
+  }
+  
+  
+  .nazv4 {
+    margin-top: 5px;
+    margin-left: 56px;
+    border: none;
+    color: white;
+    background:#72140A;
+    border-radius: 10px;
+    text-align: center;
+    width: 18.9%;
+   display: inline-block;
+  }
+  
+  .naz4 {
+    color: white;
+    font-size: 20px;
+    right: -315px;
+    top: 64px;
+   position: relative;
+   width: 0%;
+  }
+}

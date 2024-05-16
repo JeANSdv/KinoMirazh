@@ -10,32 +10,32 @@
   flex-shrink: 100;
 }
 
-/* первый блок */
-.price1 {
-  margin-left: 201px;
-  margin-top: -81px;
-}
-
-
-.nazv1, .nazv2, .nazv3, .nazv4  {
-  margin-top: 4px;
-  margin-left: 65px;
-  border: none;
-  font-size: 20px;
-  color: white;
-  background:  #72140A;
-  border-radius: 10px;
-  text-align: center;
-  width: 15.9%;
- display: inline-block;
-}
-
 .kofi {
   color: white;
   font-size: 30px;
   text-align: center;
   margin-top: 90px;
   width: 100%;
+}
+
+/* первый блок */
+.price1 {
+  margin-left: 217px;
+  margin-top: -56px;
+}
+
+
+.nazv1  {
+  margin-top: 4px;
+  margin-left: 50px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background:  #72140A;
+  border-radius: 10px;
+  text-align: center;
+  width: 16.9%;
+ display: inline-block;
 }
 
 
@@ -53,28 +53,20 @@
 
 /* второй блок */
 .price2 {
-  margin-left: 217px;
+  margin-left: 216px;
   margin-top: -57px;
 }
 
-.nazv5, .nazv6, .nazv7, .nazv8 {
+.nazv2 {
   margin-top: 5px;
-  margin-left: 64px;
+  margin-left: 50px;
   border: none;
   color: white;
   background: #72140A;
   border-radius: 10px;
   text-align: center;
-  width: 15.9%;
+  width: 16.9%;
  display: inline-block;
-}
-
-.kofi2 {
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 0px;
-
 }
 
 
@@ -94,30 +86,21 @@
 /* третий блок */
 
 .price3 {
-  margin-left: 208px;
+  margin-left: 216px;
   margin-top: -57px; 
 }
 
-.nazv9, .nazv10, .nazv11, .nazv12 {
+.nazv3 {
   margin-top: 5px;
-  margin-left: 63px;
+  margin-left: 50px;
   border: none;
   color: white;
   background: #72140A;
   border-radius: 10px;
   text-align: center;
-  width: 15.9%;
+  width: 16.9%;
  display: inline-block;
 }
-
-.kofi3 {
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  margin-top: -30px;
-
-}
-
 
 .naz3 {
   color: white;
@@ -134,31 +117,22 @@
 /* Четвертый блок */
 
 .price4 {
-  margin-left: 215px;
+  margin-left: 221px;
   margin-top: -57px;
 }
 
 
-.nazv13, .nazv14, .nazv15, .nazv16 {
+.nazv4 {
   margin-top: 5px;
-  margin-left: 63px;
+  margin-left: 49px;
   border: none;
   color: white;
   background:#72140A;
   border-radius: 10px;
   text-align: center;
-  width: 15.9%;
+  width: 16.9%;
  display: inline-block;
 }
-
-.kofi4 {
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 0px;
-
-}
-
 
 .naz4 {
   color: white;
@@ -168,347 +142,3 @@
  position: relative;
  width: 0%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .category {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    
-}
-
-
-
-.price1 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 14%;
- margin-top: -3%;
- margin-left: 0%;
-}
-
-.price2 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 14%;
- margin-top: -57px;
- margin-left: 321px;
-}
-
-.price3 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 14%;
- margin-top: -2.9%;
- margin-left: 33.5%;
-}
-
-.price4 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 14%;
- margin-top: -3%;
- margin-left: 50%;
-}
-.price5 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 14%;
- margin-top: -2.9%;
- margin-left: 66.7%;
-}
-
-
-@media screen and (max-width: 1920px){
-  .price1 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 14%;
- margin-top: -3.1%;
- margin-left: 0.3%;
-}
-.price2 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 14%;
-margin-top: -55px;
-margin-left: 321px;
-}
-
-.price3 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 14%;
-margin-top: -3.1%;
-margin-left: 34.6%;
-}
-
-.price4 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 14%;
-margin-top: -3%;
-margin-left: 51.8%;
-}
-.price5 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 14%;
-margin-top: -3%;
-margin-left: 68.7%;
-}
-}
-  
-
-@media screen and (max-width: 1760px){
-  .price1 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 15%;
- margin-top: -3.5%;
- margin-left: 0.3%;
-}
-.price2 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 15%;
-margin-top: -55px;
-margin-left: 321px;
-}
-
-.price3 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 16%;
-margin-top: -3.1%;
-margin-left: 36.6%;
-}
-
-.price4 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 15%;
-margin-top: -3.3%;
-margin-left: 55.2%;
-}
-.price5 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 15%;
-margin-top: -3.2%;
-margin-left: 73.7%;
-}
-}
-
-@media screen and (max-width: 1680px){
-  .price1 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
- text-align: center;
- font-size: 25px;
- background: linear-gradient(45deg, #B50E0B, #72140A); 
- border: none;
- border-radius: 10% / 30%;
- width: 16%;
- margin-top: -3.5%;
- margin-left: 0.3%;
-}
-.price2 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 16%;
-margin-top: -55px;
-margin-left: 321px;
-}
-
-.price3 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 16%;
-margin-top: -3.5%;
-margin-left: 39%;
-}
-
-.price4 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 16%;
-margin-top: -3.3%;
-margin-left: 58.2%;
-}
-.price5 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
- position: relative;
-text-align: center;
-font-size: 25px;
-background: linear-gradient(45deg, #B50E0B, #72140A); 
-border: none;
-border-radius: 10% / 30%;
-width: 16%;
-margin-top: -3.2%;
-margin-left: 77.7%;
-}
-} */
