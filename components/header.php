@@ -23,16 +23,16 @@ require_once "controllers/connect.php"
     <div class="nav">
         <nav>
             <ul class="nav_ul">
-                <li><a href=""><button class="nav-button">Главная</button></a></li>
-                <li><a href=""><button class="nav-button">Сеансы</button></a></li>
-                <li><a href=""><button class="nav-button">Кафетерий</button></a></li>
+                <li><a href="index0.php"><button class="nav-button">Главная</button></a></li>
+                <li><a href="session.php"><button class="nav-button">Сеансы</button></a></li>
+                <li><a href="cafepage.html"><button class="nav-button">Кафетерий</button></a></li>
             </ul>
         </nav>
     </div>
     <!-- socialnet -->
     <div class="socialnet">
-        <a href=""><img class="social" src="assets/img/ico/ico-vk.png"></a>
-        <a href=""><img class="social" src="assets/img/ico/ico-tg.png"></a>
+        <a href="https://vk.com/club225855467"><img class="social" src="assets/img/ico/ico-vk.png"></a>
+        <a href="https://t.me/+vF9yLhfwZThlZjMy"><img class="social" src="assets/img/ico/ico-tg.png"></a>
     </div>
     <!-- personal -->
     <div class="personal">

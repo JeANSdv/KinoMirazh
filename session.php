@@ -8,33 +8,28 @@
     JOIN film AS f ON ss.film_id=f.film_id 
     JOIN film_category AS fc ON f.film_id = fc.film_id 
     JOIN category AS c ON fc.category_id = c.category_id 
-    GROUP BY ss.session_id) AS g";
+    GROUP BY ss.session_id) AS g WHERE 1=1";
 
     if(isset($_GET['age'])){
         $age_rating = $_GET['age'];
-        $query .= " WHERE g.age_rating = '$age_rating+'";
+        $query .= " AND g.age_rating = '$age_rating+'";
     }
 
-    if(isset($_GET['category']) and !(isset($_GET['age']))){
-        $category_filt = $_GET['category'];
-        $query .= " WHERE g.categories LIKE '%$category_filt%'";
-    }
-
-    if(isset($_GET['category']) and isset($_GET['age'])){
+    if(isset($_GET['category'])){
         $category_filt = $_GET['category'];
         $query .= " AND g.categories LIKE '%$category_filt%'";
     }
 
-    // print_r($query);
-    // echo "<br>";
-    // print_r($_GET['category']);
+    print_r($query);
+    echo "<br>";
+    print_r($_GET['category']);
 
     $res = mysqli_query($conn, $query);
 	if (!$res) echo("Ошибка result");
 ?>
 
 <div class="session-page">
-    <!-- <div class="session-date-filter"> 
+    <div class="session-date-filter"> 
         <button>17 мая</button>
         <button>18 мая</button>
         <button>19 мая</button>
@@ -45,7 +40,7 @@
         <button>24 мая</button>
         <button>25 мая</button>
         <button>26 мая</button>
-    </div>  -->
+    </div> 
     <div class="session-page-films">
         <div class="session-filters">
             <?php include "components/session-filter.php" ?>
