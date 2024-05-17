@@ -17,6 +17,9 @@
 .select-element {
     width: 50%;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .film-filter-text {
@@ -41,7 +44,7 @@
     row-gap: 1vw;
 }
 
-.session-film-filter button {
+.session-film-filter input.button {
     background-color: #ffffff;
     border: 0;
     border-radius: 5px;
@@ -49,12 +52,12 @@
     padding: 3px;
 }
 
-.session-film-filter button:hover {
+.session-film-filter input.button:hover {
     border: 2px solid black;
     padding: 1px;
 }
 
-.session-film-filter button:active {
+.session-film-filter input.button:active {
     border: 3px solid black;
     padding: 0;
 }

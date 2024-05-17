@@ -208,7 +208,7 @@ button.personal-button div {
 
 .sessions-elements h1, p {
     color: white;
-
+    margin-block: 1.5vh;
 }
 
 .session-film {
