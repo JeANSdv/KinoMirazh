@@ -25,7 +25,7 @@ require_once "controllers/connect.php"
             <ul class="nav_ul">
                 <li><a href="index0.php"><button class="nav-button">Главная</button></a></li>
                 <li><a href="session.php"><button class="nav-button">Сеансы</button></a></li>
-                <li><a href="cafepage.html"><button class="nav-button">Кафетерий</button></a></li>
+                <li><a href="cafepage.php"><button class="nav-button">Кафетерий</button></a></li>
             </ul>
         </nav>
     </div>

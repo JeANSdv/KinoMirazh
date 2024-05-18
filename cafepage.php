@@ -1,40 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KINOMIRAZH</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/kofi.css">
-    <link rel="stylesheet" href="assets/css/kofiadapt.css">
-</head>
-<body>
-
-<!-- HEADER -->
-<header>
-    <!-- logo -->
-    <div class="header-logo"><img class="header-logo" src="assets/img/kinotextlogo.png" alt=""></div>
-    <!-- navigation -->
-    <div class="nav">
-        <nav>
-            <ul class="nav_ul">
-                <li><a href="index0.php"><button class="nav-button">Главная</button></a></li>
-                <li><a href="session.php"><button class="nav-button">Сеансы</button></a></li>
-                <li><a href="cafepage.html"><button class="nav-button">Кафетерий</button></a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- socialnet -->
-    <div class="socialnet">
-        <a href=""><img class="social" src="assets/img/ico/ico-vk.png"></a>
-        <a href=""><img class="social" src="assets/img/ico/ico-tg.png"></a>
-    </div>
-    <!-- personal -->
-    <div class="personal">
-        <a href=""><button class="personal-button"><div><img src="assets/img/ico/personal-ico.png">Войти</div></button></a>
-    </div>
-</header>
-
+<?php
+    include "components/header.php"
+?>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/kofi.css">
+<link rel="stylesheet" href="assets/css/kofiadapt.css">
 
 <div class="naz">
     <h3 class="naz">ЗАКУСКИ</h3>
@@ -55,8 +24,6 @@
     <h3 class="nazv1">Попкорн соленный <br> 130руб</h3>
 </div>
 
-
-
 <div class="naz2">
     <h3 class="naz2">НАПИТКИ</h3>
 </div>
@@ -75,9 +42,6 @@
     <h3 class="nazv2">Pepsi <br> 170руб</h3>
     <h3 class="nazv2">Sprite <br> 130руб</h3>
 </div>
-
-
-
 
 <div class="naz3">
     <h3 class="naz3">СНЕКИ</h3>
@@ -98,9 +62,6 @@
     <h3 class="nazv3">СырBALL <br> 90руб</h3>
 </div>
 
-
-
-
 <div class="naz4">
     <h3 class="naz4">СЛАДОСТИ</h3>
 </div>
@@ -119,6 +80,3 @@
     <h3 class="nazv4">Twix <br> 70руб</h3>
     <h3 class="nazv4">Snickers <br> 80руб</h3>
 </div>
-
-</body>
-</html>

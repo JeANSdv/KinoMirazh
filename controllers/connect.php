@@ -5,5 +5,5 @@
     $pass = '';
     
     $conn = mysqli_connect($host, $user, $pass, $db);
-    if ($conn->connect_error) die("sh1t");
+    if ($conn->connect_error) die("sht");
 ?>

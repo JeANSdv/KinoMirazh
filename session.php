@@ -1,7 +1,7 @@
 <?php 
     include "components/header.php";
 
-    $query = "SELECT DISTINCT g.film_id, g.title, g.actors, g.age_rating, g.country, g.release_date, g.length, g.img_path, g.categories 
+    $query = "SELECT DISTINCT g.film_id, g.title, g.actors, g.age_rating, g.country, g.release_date, g.length, g.img_path, g.categories
     FROM (SELECT ss.session_id, ss.session_date, f.film_id, f.title, f.actors, f.age_rating, 
     f.country, f.release_date, f.length, f.img_path, GROUP_CONCAT(c.category_name SEPARATOR ', ') AS categories 
     FROM `session` AS ss 
@@ -20,27 +20,31 @@
         $query .= " AND g.categories LIKE '%$category_filt%'";
     }
 
-    print_r($query);
-    echo "<br>";
-    print_r($_GET['category']);
+    // print_r($query);
+    // echo "<br>";
+    // print_r($_GET);
+
 
     $res = mysqli_query($conn, $query);
 	if (!$res) echo("Ошибка result");
+
+    // $date_cr = date_create();
 ?>
 
 <div class="session-page">
-    <div class="session-date-filter"> 
-        <button>17 мая</button>
-        <button>18 мая</button>
-        <button>19 мая</button>
-        <button>20 мая</button>
-        <button>21 мая</button>
-        <button>22 мая</button>
-        <button>23 мая</button>
-        <button>24 мая</button>
-        <button>25 мая</button>
-        <button>26 мая</button>
-    </div> 
+    <!-- <form class="session-date-filter" method="GET"> 
+        <?php
+            // for($i=0; $i<10;$i++){
+            //     $date_fo = date_format($date_cr, "j.m");
+            //     $date_filt_html = <<<_DAFI
+            //         <input type="button" value="$date_fo" name="date">
+            //     _DAFI;
+            //     date_add($date_cr,date_interval_create_from_date_string("1 day"));
+            //     echo "$date_filt_html";
+            // }
+        ?>
+    </form>  -->
+
     <div class="session-page-films">
         <div class="session-filters">
             <?php include "components/session-filter.php" ?>
@@ -65,7 +69,7 @@
                                 <p>$film[country], $film[release_date]</p>
                                 <p>$filmh ч $filmmi м</p>
                                 <p>$film[age_rating]</p>
-                                <a href=""><button>Выбрать время</button></a>
+                                <a href="single-film.php?film=$film[film_id]"><button>Выбрать время</button></a>
                             </div>
                         </div>
 

@@ -11,11 +11,11 @@
 
     <h3 class="filter-main-text">ПОДБОР ПО ПАРАМЕТРАМ:</h3>
 
-    <h5 class="filt-second-text">Цена билета:</h5>
+    <!-- <h5 class="filt-second-text">Цена билета:</h5>
     <div class="price-filt">
         <input type='number' name="minprice" placeholder="от" min="1" max="9999">
         <input type='number' name="maxprice" placeholder="до" min="2" max="10000">
-    </div>
+    </div> -->
 
     <h5 class="filt-second-text">Жанры:</h5>
 
@@ -24,11 +24,11 @@
             $filt_num_rows = mysqli_num_rows($filt_res);
             if ($filt_num_rows > 0){
                 for ($i=0; $i<$filt_num_rows; $i++){
-                    $cat_filt = mysqli_fetch_array($filt_res, MYSQLI_ASSOC);
+                    $cat_filt = mysqli_fetch_array($filt_res, MYSQLI_ASSOC);  
                     $cat_filt_html = <<<_CATFILTER
                         <div class="select-element">
-                            <input type="checkbox" value="$cat_filt[category_name]" name="category">
-                            <label class="sort">$cat_filt[category_name]</label>
+                            <input id="$cat_filt[category_id]" type="radio" value="$cat_filt[category_name]" name="category">
+                            <label for="$cat_filt[category_id]" class="sort">$cat_filt[category_name]</label>
                         </div>
                     _CATFILTER;
                     echo $cat_filt_html;

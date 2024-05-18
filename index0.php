@@ -20,10 +20,9 @@
 
 <!-- BLOCKS -->
 
-<!-- Контейнер с текстом 'популярное' и картинкой стрелкой. -->
+<!-- Контейнер с текстом 'популярное'. -->
 <div class="block">
     <h1 class="popular">ПОПУЛЯРНОЕ</h1>
-    <img src="assets/img/ico/ico-100.png" class="arrimg">
 </div>
 
 <!-- слайдер с картинками -->
@@ -32,17 +31,14 @@
     <img src="assets/img/slider-img.webp" class="imgslayd">
     <img src="assets/img/slider-img.webp" class="imgslayd">
     <img src="assets/img/slider-img.webp" class="imgslayd">
-    <img src="assets/img/slider-img.webp" class="imgslayd">
 </div>
-<!-- Контейнер с текстом 'популярное' и картинкой стрелкой. -->
+<!-- Контейнер. -->
 <div class="block">
     <h1 class="popular">НОВИНКИ</h1>
-    <img src="assets/img/ico/ico-100.png" class="arrimg">
 </div>
 
     <!-- слайдер с картинками -->
     <div class="blockslayder">
-        <img src="assets/img/slider-img.webp" class="imgslayd">
         <img src="assets/img/slider-img.webp" class="imgslayd">
         <img src="assets/img/slider-img.webp" class="imgslayd">
         <img src="assets/img/slider-img.webp" class="imgslayd">
