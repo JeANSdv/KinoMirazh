@@ -1,7 +1,13 @@
 <?php
 session_start();
-require_once "controllers/connect.php"
+require_once "controllers/connect.php";
 
+if (isset($_SESSION['km_auth'])){
+    $acc_text = "Профиль";
+}
+else {
+    $acc_text = "Войти";
+}
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +29,7 @@ require_once "controllers/connect.php"
     <div class="nav">
         <nav>
             <ul class="nav_ul">
-                <li><a href="index0.php"><button class="nav-button">Главная</button></a></li>
+                <li><a href="index.php"><button class="nav-button">Главная</button></a></li>
                 <li><a href="session.php"><button class="nav-button">Сеансы</button></a></li>
                 <li><a href="cafepage.php"><button class="nav-button">Кафетерий</button></a></li>
             </ul>
@@ -36,7 +42,7 @@ require_once "controllers/connect.php"
     </div>
     <!-- personal -->
     <div class="personal">
-        <a href=""><button class="personal-button"><div><img src="assets/img/ico/personal-ico.png">Войти</div></button></a>
+        <a href="auth.php"><button class="personal-button"><div><img src="assets/img/ico/personal-ico.png"><?= $acc_text ?></div></button></a>
     </div>
 </header>
 </body>

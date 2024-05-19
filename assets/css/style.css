@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 /* HEADER */
 header {
@@ -108,7 +109,7 @@ button.personal-button div {
 
 .personal-button img {
     width: 25%;
-    margin: 4%;
+    margin-block: 4%;
 }
 
 /* BLOCKS */
@@ -253,4 +254,115 @@ button.personal-button div {
 
 .session-film-info a button:active {
     border: 1px solid white;
+}
+
+/* AUTHORIZATION / REGISTRATION */
+
+.signin-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin-main span {
+    color: white;
+    margin-block: 2vh;
+    font-size: 2.5vh;
+}
+
+.signin-main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 2vh;
+}
+
+.signin-main form input {
+    height: 4vh;
+    width: 16vw;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+.signin-main form input.submi {
+    color: rgb(219, 219, 219);
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #a00000, #B50E0B, #a00000);
+}
+
+.signin-main form input.submi:hover {
+    color: white;
+    border: solid white 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #B50E0B;
+}
+
+.signin-main form input.submi:active {
+    border-radius: 10px;
+    background: #e81613;
+}
+
+.gotoreg {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.gotoreg button{
+    height: 3.8vh;
+    width: 7.6vw;
+    border: none;
+    border-radius: 8px;
+    background: rgb(199, 199, 199);
+}
+
+.gotoreg button:hover{
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 2vh;
+    color: white;
+}
+
+.reg-form span {
+    color: white;
+    margin-block: 2vh;
+    font-size: 2.5vh;
+}
+
+.reg-form input {
+    height: 4vh;
+    width: 16vw;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+.reg-form input.submi {
+    color: rgb(219, 219, 219);
+    border-radius: 10px;
+    background: linear-gradient(90deg, #a00000, #B50E0B, #a00000);
+}
+
+.reg-form input.submi:hover {
+    color: white;
+    border: solid white 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #B50E0B;
+}
+
+.reg-form input.submi:active {
+    border-radius: 10px;
+    background: #e81613;
 }
