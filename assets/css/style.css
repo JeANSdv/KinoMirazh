@@ -357,12 +357,121 @@ button.personal-button div {
 .reg-form input.submi:hover {
     color: white;
     border: solid white 1px;
-    border-radius: 10px;
     cursor: pointer;
     background: #B50E0B;
 }
 
 .reg-form input.submi:active {
+    background: #e81613;
+}
+
+/* PERSONAL */
+
+.personal-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5vh;
+}
+
+.personal-main h1 {
+    color: white;
+}
+
+.personal-main input {
+    height: 4vh;
+    width: 16vw;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    color: rgb(219, 219, 219);
+    background: linear-gradient(90deg, #a00000, #B50E0B, #a00000);
+}
+
+.personal-main input:hover {
+    border: solid white 1px;
+    cursor: pointer;
+    background: #B50E0B;
+}
+
+.personal-main input:active {
+    background: #e81613;
+}
+
+.ticket-main{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 80%;
+    align-items: center;
+}
+
+.ticket-main div.tickets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    row-gap: 2vh;
+    column-gap: 2vw;
+
+}
+
+.tickets div.ticket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
     border-radius: 10px;
+    padding-block: 2vh;
+    padding-inline: 2vw;
+    width: 14vw;
+    height: 42vh;
+    background: linear-gradient(180deg, rgb(167, 0, 0) 0%, rgb(192, 0, 0) 50%, rgb(142, 0, 0) 100%);
+}
+
+.tickets div.ticket span, h2{
+    text-align: center;
+}
+
+.tickets div.ticket span{
+    font-size: 140%;
+    margin-bottom: 1vh;
+}
+
+.tickets div.ticket h2{
+    margin: 0;
+    margin-bottom: 1vh;
+}
+
+.tickets div.ticket span.adress{
+    font-size: 110%;
+}
+
+.tickets div.ticket img{
+    max-width: 70%;
+}
+
+.tickets span{
+    font-size: 140%;
+}
+
+.tickets button{
+    height: 4vh;
+    width: 12vw;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: rgb(219, 219, 219);
+    background: linear-gradient(90deg, #a00000, #B50E0B, #a00000);
+    font-size: 120%;
+}
+
+.tickets button:hover {
+    border: solid white 1px;
+    cursor: pointer;
+    background: #B50E0B;
+}
+
+.tickets button:active {
     background: #e81613;
 }
