@@ -31,7 +31,7 @@ $res = mysqli_fetch_array($res, MYSQLI_ASSOC);
             include "components/tickets.php";
         }
         elseif ($_GET['page'] == "История оплаты"){
-            echo "<span style='color: white'>hello</span>";
+            include "components/pay-history.php";
         }
         elseif ($_GET['page'] == "Личные данные"){
             // 

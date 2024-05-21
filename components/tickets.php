@@ -40,7 +40,7 @@ if (!$res) die('half-life');
             $ticket_html = <<<_TICKET
                 <div style="display:flex; flex-direction:column; align-items:center;">
                     <span>У Вас нет билетов</span>
-                    <a href=''><button>Приобрести билет</button></a>
+                    <a href='session.php'><button>Приобрести билет</button></a>
                 </div>
             _TICKET;
             echo $ticket_html;
