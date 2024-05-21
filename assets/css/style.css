@@ -388,6 +388,10 @@ button.personal-button div {
     background: linear-gradient(90deg, #a00000, #B50E0B, #a00000);
 }
 
+.personal-main input.active {
+    border: solid white 1px;
+}
+
 .personal-main input:hover {
     border: solid white 1px;
     cursor: pointer;
@@ -502,6 +506,10 @@ button.personal-button div {
     color: white;
 }
 
+.pay-hist-main div.pay-h-elem:hover {
+    background: rgb(170, 170, 170);
+}
+
 .pay-hist-main div.pay-h-elem span {
     width: 10%;
     text-align: center;
@@ -540,9 +548,53 @@ button.personal-button div {
     height: 6vh;
     margin-bottom: 1vh;
     column-gap: 0.5vw;
+    border: 2px solid white;
 }
 
 .s-pay-hist-main div div.service span {
     font-size: 105%;
     text-align: center;
+}
+
+.s-pay-hist-main button{
+    height: 4vh;
+    width: 12vw;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: rgb(219, 219, 219);
+    background: linear-gradient(90deg, #a00000, #B50E0B, #a00000);
+    font-size: 120%;
+}
+
+.s-pay-hist-main button:hover {
+    border: solid white 1px;
+    cursor: pointer;
+    background: #B50E0B;
+}
+
+.s-pay-hist-main button:active {
+    background: #e81613;
+}
+
+.pers-data{
+    display: flex;
+    justify-content: center;
+}
+
+.pers-data div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9a0c09;
+    row-gap: 1vh;
+    padding-block: 4vh;
+    padding-inline: 4vw;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.pers-data span{
+    color: white;
+    font-size: 140%;
 }

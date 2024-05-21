@@ -12,6 +12,17 @@ $res = mysqli_query($conn, $query);
 if (!$res) die ('el Barto');
 $res = mysqli_fetch_array($res, MYSQLI_ASSOC);
 
+if (isset($_GET['page'])){
+    $actual_page = $_GET['page'];
+    $cls1 = $actual_page == "Билеты" ? 'active' : '';
+    $cls2 = $actual_page == "История оплаты" ? 'active' : '';
+    $cls3 = $actual_page == "Личные данные" ? 'active' : '';
+}
+else {
+    $cls1 = 'active';
+}
+
+
 ?>
 
 <div class="personal-main">
@@ -19,9 +30,9 @@ $res = mysqli_fetch_array($res, MYSQLI_ASSOC);
     <h1>Здравствуйте, <?= $res['name']; ?>! </h1>
 
     <form class="block-buttons" method="GET">
-        <input type="submit" name="page" value="Билеты">
-        <input type="submit" name="page" value="История оплаты">
-        <input type="submit" name="page" value="Личные данные">
+        <input class="<?= $cls1 ?>" type="submit" name="page" value="Билеты">
+        <input class="<?= $cls2 ?>" type="submit" name="page" value="История оплаты">
+        <input class="<?= $cls3 ?>" type="submit" name="page" value="Личные данные">
         <a href="controllers/pers-exit.php"><input type="button" value="Выйти из аккаунта"></a>
     </form>  
 
@@ -34,7 +45,7 @@ $res = mysqli_fetch_array($res, MYSQLI_ASSOC);
             include "components/pay-history.php";
         }
         elseif ($_GET['page'] == "Личные данные"){
-            // 
+            include "components/personal-data.php";
         }
         else {
             include "components/tickets.php";

@@ -28,22 +28,22 @@
     $res = mysqli_query($conn, $query);
 	if (!$res) echo("Ошибка result");
 
-    // $date_cr = date_create();
+    $date_cr = date_create();
 ?>
 
 <div class="session-page">
-    <!-- <form class="session-date-filter" method="GET"> 
+    <form class="session-date-filter" method="GET"> 
         <?php
-            // for($i=0; $i<10;$i++){
-            //     $date_fo = date_format($date_cr, "j.m");
-            //     $date_filt_html = <<<_DAFI
-            //         <input type="button" value="$date_fo" name="date">
-            //     _DAFI;
-            //     date_add($date_cr,date_interval_create_from_date_string("1 day"));
-            //     echo "$date_filt_html";
-            // }
+            for($i=0; $i<10;$i++){
+                $date_fo = date_format($date_cr, "j.m");
+                $date_filt_html = <<<_DAFI
+                    <input type="submit" value="$date_fo" name="date">
+                _DAFI;
+                date_add($date_cr,date_interval_create_from_date_string("1 day"));
+                echo "$date_filt_html";
+            }
         ?>
-    </form>  -->
+    </form> 
 
     <div class="session-page-films">
         <div class="session-filters">

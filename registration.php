@@ -1,8 +1,4 @@
 <?php
-if (!(isset($_SESSION['km_auth']))){
-    header("Location: auth.php");
-}
-
 include "components/header.php"
 ?>
 
