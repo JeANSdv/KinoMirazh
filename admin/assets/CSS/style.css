@@ -1,0 +1,101 @@
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation button {
+    height: 4vh;
+    width: 8vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background: rgb(175, 0, 0);
+    color: white;
+    font-size: 90%;
+}
+
+.navigation button:hover {
+    background: rgb(210, 0, 0);
+}
+
+.navigation button:active {
+    border: 3px solid black;
+    background: rgb(228, 0, 0);
+}
+
+/* DASHBOARD */
+
+.dashboard {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard span {
+    font-size: 160%;
+}
+
+.dashboard table {
+    margin-top: 2vh;
+    width: 60vw;
+    height: 8vh;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.dashboard table th, td{
+    border: 2px solid black;
+    text-align: center;
+    width: 10vw;
+    height: 4vh;
+}
+
+.dashboard table caption {
+    font-size: 140%;
+  }
+
+
+/* SESSION */
+
+form.session_add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 2vh;
+    color: white;
+}
+
+form.session_add input {
+    height: 4vh;
+    width: 16vw;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+    border: 2px solid;
+    text-align: center;
+}
+
+form.session_add select {
+    height: 4vh;
+    width: 16vw;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+    border: 2px solid;
+    text-align: center;
+}
+
+form.session_add input.submi:hover {
+    cursor: pointer;
+    border: black 2px solid;
+    background: #B50E0B;
+    color: white;
+}
