@@ -8,12 +8,12 @@ if (isset($_GET['id'])){
         $sd = mysqli_fetch_array($sd, MYSQLI_ASSOC);
     }
     else {
-        header("Location: ../session-manage.php");
+        header("Location: session-manage.php");
         exit;
     }
 }
 else {
-    header("Location: ../session-manage.php");
+    header("Location: session-manage.php");
     exit;
 }
 

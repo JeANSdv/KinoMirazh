@@ -11,12 +11,12 @@ if (isset($_GET['id'])){
         $msg = mysqli_num_rows($res) > 0 ? 'Вы не можете отменить сеанс, так как на него есть записи!' : '';
     }
     else {
-        header("Location: ../session-manage.php");
+        header("Location: session-manage.php");
         exit;
     }
 }
 else {
-    header("Location: ../session-manage.php");
+    header("Location: session-manage.php");
     exit;
 }
 

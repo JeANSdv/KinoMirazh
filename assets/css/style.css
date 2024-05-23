@@ -2,6 +2,7 @@ body {
     background-color: black;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    margin: 0;
 }
 /* HEADER */
 header {
@@ -16,6 +17,7 @@ header {
     top: 0;
     background-color: black;
     z-index: 1000;
+       
 }
 
 div.header-logo {
