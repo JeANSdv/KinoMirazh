@@ -1,5 +1,10 @@
 <?php
 session_start();
+
+if (!(isset($_SESSION['km_isadm']))){
+    header("Location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+}
+
 require_once "controllers/connect.php";
 ?>
 

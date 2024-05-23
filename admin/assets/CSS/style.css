@@ -99,3 +99,69 @@ form.session_add input.submi:hover {
     background: #B50E0B;
     color: white;
 }
+
+div.del {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.del form input {
+    height: 4vh;
+    width: 16vw;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+    border: 2px solid;
+    text-align: center;
+}
+
+div.del form input:hover {
+    cursor: pointer;
+    border: black 2px solid;
+    background: #B50E0B;
+    color: white;
+}
+
+div.del form input:disabled {
+    cursor: not-allowed;
+    border: none;
+    background: #b2b2b2;
+    color: black;
+}
+
+div.del span{
+    font-size: 140%;
+    margin-bottom: 1vh;
+}
+
+div.del p{
+    font-size: 120%;
+    color: red;
+}
+
+/* TICKET MNG */
+
+form.ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 2vh;
+    color: white;
+}
+
+form.ticket input {
+    height: 4vh;
+    width: 8vw;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+    border: 2px solid;
+    text-align: center;
+}
+
+form.ticket input.submi:hover {
+    cursor: pointer;
+    border: black 2px solid;
+    background: #B50E0B;
+    color: white;
+}

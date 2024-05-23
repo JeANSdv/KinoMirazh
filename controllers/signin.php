@@ -20,8 +20,15 @@ if ($numrows>0){
     $hash = $fetch['password'];
     if (password_verify($pass, $hash)){
         $_SESSION['km_auth'] = $fetch['customer_id'];
-        header('Location: ../personal.php');
-        exit;
+        if ($fetch['rank'] == "admin"){
+            $_SESSION['km_isadm'] = $fetch['customer_id'];
+            header('Location: ../admin/index.php');
+            exit;
+        }
+        else {
+            header('Location: ../personal.php');
+            exit;
+        }
     }
     else {
         $_SESSION['cl_err_msg'] = 'Неверные логин или пароль';

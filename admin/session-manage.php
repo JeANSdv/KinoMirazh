@@ -1,12 +1,10 @@
 <?php
 include "components/header.php";
-
-$query 
 ?>
 
 <div>
     <div class="dashboard">
-        <a href="session-add-red.php"><button>Добавить сеанс</button></a>
+        <a href="session-add.php"><button>Добавить сеанс</button></a>
         <table>
             <caption>Сеансы</caption>
             <thead>
@@ -32,12 +30,12 @@ $query
                     $adress = "$fetch[city], $fetch[street] $fetch[building], Зал: $fetch[number]";
                     $ses_html = <<<_SESSION
                         <tr>
-                            <td>$fetch[session_id]</th>
-                            <td>$fetch[session_date]</th>
+                            <td>$fetch[session_id]</td>
+                            <td>$fetch[session_date]</td>
                             <td>$fetch[title]</td>
                             <td>$adress</td>
-                            <td><button>Редактировать</button></td>
-                            <td><button>Отменить</button></td>
+                            <td><a href="session-redact.php?id=$fetch[session_id]"><button>Редактировать</button></a></td>
+                            <td><a href="session-del.php?id=$fetch[session_id]"><button>Отменить</button></a></td>
                         </tr>
                     _SESSION;
                     echo $ses_html;
