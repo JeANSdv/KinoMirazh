@@ -42,14 +42,9 @@ if (!$res1) die('i ill have two number nine...');
             <span>Услуги:</span>
         _CHK;
         echo $check_html;
-        $query2 = "SELECT pr.price, op.option_name, ss.session_date, f.title, f.age_rating 
-        FROM payment_price AS pp 
-        JOIN payment AS p ON pp.payment_id=p.payment_id 
-        JOIN price AS pr ON pr.price_id=pp.payment_id 
-        JOIN `price_option` AS op ON pr.option_id = op.option_id 
-        JOIN `session` AS ss ON pr.session_id = ss.session_id 
-        JOIN film AS f ON ss.film_id = f.film_id 
-        WHERE pp.payment_id = $check[payment_id]";
+        $query2 = "SELECT * FROM payment_price AS pp JOIN payment AS p ON pp.payment_id=p.payment_id 
+        JOIN price AS pr ON pp.price_id=pr.price_id JOIN `price_option` AS op ON pr.option_id = op.option_id 
+        JOIN `session` AS ss ON pr.session_id = ss.session_id JOIN film AS f ON ss.film_id = f.film_id WHERE pp.payment_id = $check[payment_id]";
         $res2 = mysqli_query($conn, $query2);
         if (!$res2) die('number nine large, two numbers fourty five');
         $num_rows = mysqli_num_rows($res2);

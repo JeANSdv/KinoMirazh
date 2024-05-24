@@ -125,7 +125,7 @@ button.personal-button div {
 .popular {
     color: white;
     font-size: 20px;
-    margin-right: 5px;
+    margin-left: 1vw;
     text-align: center;
 }
     
@@ -143,6 +143,9 @@ button.personal-button div {
 
 .imgslayd {
     width: 400px;
+    height: 225px;
+    min-width: 400px;
+    min-height: 225px;
     margin-top: 10px;
     border-radius: 30px;
     border: 1px solid white;
@@ -177,7 +180,7 @@ button.personal-button div {
     justify-content: space-evenly;
 }
 
-.session-date-filter input{
+.session-date-filter button{
     width: 8vw;
     height: 4vh;
     background-color: #72140A;
@@ -186,11 +189,11 @@ button.personal-button div {
     color: azure;
 }
 
-.session-date-filter input:hover{
+.session-date-filter button:hover{
     background: linear-gradient(45deg, #B50E0B, #72140A);
 }
 
-.session-date-filter input:active{
+.session-date-filter button:active{
     border: 2px solid white;
 }
 
@@ -435,7 +438,7 @@ button.personal-button div {
     background: linear-gradient(180deg, rgb(167, 0, 0) 0%, rgb(192, 0, 0) 50%, rgb(142, 0, 0) 100%);
 }
 
-.tickets div.ticket span, h2{
+.tickets div.ticket span, .tickets div.ticket h2{
     text-align: center;
 }
 
@@ -455,6 +458,12 @@ button.personal-button div {
 
 .tickets div.ticket img{
     max-width: 70%;
+}
+
+.tickets div.ticket a {
+    color: black;
+    text-decoration: none;
+    margin-top: 1vh;
 }
 
 .tickets span{
@@ -599,4 +608,118 @@ button.personal-button div {
 .pers-data span{
     color: white;
     font-size: 140%;
+}
+
+/* SINGLE FILM */
+
+div.s-film {
+    display: flex;
+    flex-direction: row;
+}
+
+.s-film-info {
+    width: 60%;
+}
+
+.s-film-info h1, .s-film-info h2{
+    color: white;
+    text-align: center;
+}
+
+.s-film-info h1 {
+    margin-top: 0;
+}
+
+.s-film-info p{
+    color: white;
+    text-align: center;
+    font-size: 120%;
+}
+
+.s-film-info img {
+    max-width: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.s-film-info-main {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.s-film-info-main div {
+    border: 2px solid white;
+    background-color: #72140A;
+    padding-inline: 1vw;
+}
+
+.s-film-sessions {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1vh;
+}
+
+.s-film-sessions button{
+    width: 16vw;
+    height: 6vh;
+    background-color: #72140A;
+    border: 0;
+    border-radius: 5px;
+    color: azure;
+    font-size: 90%;
+}
+
+.s-film-sessions button:hover{
+    background: linear-gradient(45deg, #B50E0B, #72140A);
+    cursor: pointer;
+}
+
+.s-film-sessions button:active{
+    border: 2px solid white;
+}
+
+.s-film-sessions h2{
+    color: white;
+    text-align: center;
+}
+
+form.buy-ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+form.buy-ticket span {
+    color: white;
+    font-size: 140%;
+}
+
+form.buy-ticket input {
+    height: 4vh;
+    width: 16vw;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background: #8e0b09;
+    color: white;
+}
+
+form.buy-ticket select {
+    height: 4vh;
+    width: 16vw;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+form.buy-ticket input:hover {
+    cursor: pointer;
+    border: white 2px solid;
+    background: #B50E0B;
 }

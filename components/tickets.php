@@ -1,4 +1,5 @@
 <?php
+
 $query = "SELECT t.ticket_id, f.title, f.age_rating, ss.session_date, po.option_name, ch.number, 
 hs.row, hs.seat, cl.city, cl.street, cl.building 
 FROM ticket AS t JOIN `session` AS ss ON t.session_id=ss.session_id 
@@ -30,7 +31,8 @@ if (!$res) die('half-life');
                     <span>$ticket[option_name]</span>
                     <span>Зал: $ticket[number], Ряд: $ticket[row], Место: $ticket[seat]</span>
                     <span class="adress">$ticket[city], Улица $ticket[street], $ticket[building]</span>
-                    <img src="assets/img/qr.png" alt="">
+                    <a href="ticket-qr.php">QR для проверки</a>
+                    <a href="controllers/ticket-del.php?id=$ticket[ticket_id]">Отменить билет</a>
                 </div>
                 _TICKET;
                 echo $ticket_html;

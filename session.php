@@ -8,7 +8,7 @@
     JOIN film AS f ON ss.film_id=f.film_id 
     JOIN film_category AS fc ON f.film_id = fc.film_id 
     JOIN category AS c ON fc.category_id = c.category_id 
-    GROUP BY ss.session_id) AS g WHERE 1=1";
+    GROUP BY ss.session_id) AS g WHERE (NOW() < g.session_date)";
 
     if(isset($_GET['age'])){
         $age_rating = $_GET['age'];
@@ -20,13 +20,17 @@
         $query .= " AND g.categories LIKE '%$category_filt%'";
     }
 
+    if(isset($_GET['date'])){
+        $query .= "AND session_date LIKE '$_GET[date]%'";
+    }
+
     // print_r($query);
     // echo "<br>";
     // print_r($_GET);
 
 
     $res = mysqli_query($conn, $query);
-	if (!$res) echo("Ошибка result");
+	if (!$res) die("rise and shine, mr. Freeman...");
 
     $date_cr = date_create();
 ?>
@@ -36,8 +40,9 @@
         <?php
             for($i=0; $i<10;$i++){
                 $date_fo = date_format($date_cr, "j.m");
+                $date_val = date_format($date_cr, "Y-m-d");
                 $date_filt_html = <<<_DAFI
-                    <input type="submit" value="$date_fo" name="date">
+                    <button name="date" value="$date_val" type="submit">$date_fo</button>
                 _DAFI;
                 date_add($date_cr,date_interval_create_from_date_string("1 day"));
                 echo "$date_filt_html";

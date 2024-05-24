@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once "controllers/connect.php";
+require_once "lib/phpqrcode/qrlib.php";
 
 if (isset($_SESSION['km_auth'])){
     $acc_text = "Профиль";
