@@ -61,8 +61,14 @@ body {
 
     .zz {
     display: flex;
+    gap: 20px;
     }
 
     .vktg {
     width: 50px;
+    }
+
+    a {
+    text-decoration: none;
+    color: white;
     }
