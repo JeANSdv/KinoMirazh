@@ -26,6 +26,10 @@ body {
     font-size: 7px;
     opacity: 80%;
     }
+
+    .textpodzag:hover {
+    opacity: 100%;
+    }
     
     .alfa {
     width: 100px;
