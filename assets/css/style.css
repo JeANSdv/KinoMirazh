@@ -723,3 +723,14 @@ form.buy-ticket input:hover {
     border: white 2px solid;
     background: #B50E0B;
 }
+
+/* lol */
+
+div.tickets div.ticket a.yopta {
+    color: rgb(191, 191, 191);
+    font-size: 120%;
+}
+
+div.tickets div.ticket a.yopta:hover {
+    color: white;
+}

@@ -16,7 +16,7 @@
         for ($i=0;$i<$num_rows;$i++){
             $film = mysqli_fetch_array($res, MYSQLI_ASSOC);
             $slider_film = <<<_ITEM
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ""><img class="slider-img" src="assets/img/films/width/$film[imgw_path]" alt="ERROR"></a>
+                <a href="single-film.php?film=$film[film_id]"><img class="slider-img" src="assets/img/films/width/$film[imgw_path]" alt="ERROR"></a>
             _ITEM;
             echo $slider_film;
         }
@@ -44,7 +44,7 @@
         for ($i=0;$i<$num_rows;$i++){
             $film = mysqli_fetch_array($res, MYSQLI_ASSOC);
             $slider_film = <<<_ITEM
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ""><img class="imgslayd" src="assets/img/films/width/$film[imgw_path]" alt="ERROR"></a>
+                <a href="single-film.php?film=$film[film_id]"><img class="imgslayd" src="assets/img/films/width/$film[imgw_path]" alt="ERROR"></a>
             _ITEM;
             echo $slider_film;
         }
@@ -65,7 +65,7 @@
             for ($i=0;$i<$num_rows;$i++){
                 $film = mysqli_fetch_array($res, MYSQLI_ASSOC);
                 $slider_film = <<<_ITEM
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ""><img class="imgslayd" src="assets/img/films/width/$film[imgw_path]" alt="ERROR"></a>
+                    <a href="single-film.php?film=$film[film_id]"><img class="imgslayd" src="assets/img/films/width/$film[imgw_path]" alt="ERROR"></a>
                 _ITEM;
                 echo $slider_film;
             }

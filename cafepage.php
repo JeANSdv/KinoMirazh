@@ -23,3 +23,7 @@
     <h3 class="nazv1">Бесплатный попкорн за подписку на наши соц сети  130руб</h3>
 
 </div>
+
+<?php 
+    include "components/footer.php"
+?>
