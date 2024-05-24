@@ -5,8 +5,8 @@
   height: 350px;
   margin-top: 60px;
   border-radius: 30px;
-  border: 10px solid rgb(99, 11, 11);
-  margin-right: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  margin-right: -206px;
   flex-shrink: 100;
 }
 
@@ -27,118 +27,25 @@
 
 .nazv1  {
   margin-top: 4px;
-  margin-left: 50px;
+  left: -62px;
   border: none;
   font-size: 20px;
   color: white;
   background:  #72140A;
   border-radius: 10px;
   text-align: center;
-  width: 16.9%;
+  width: 14.3%;
  display: inline-block;
+ position: relative;
 }
 
 
 .naz {
   color: white;
   font-size: 20px;
-  right: -428px;
+  right: -456px;
   top: 62px;
  position: relative;
  width: 0%;
 }
 
-
-
-
-/* второй блок */
-.price2 {
-  margin-left: 216px;
-  margin-top: -57px;
-}
-
-.nazv2 {
-  margin-top: 5px;
-  margin-left: 50px;
-  border: none;
-  color: white;
-  background: #72140A;
-  border-radius: 10px;
-  text-align: center;
-  width: 16.9%;
- display: inline-block;
-}
-
-
-.naz2 {
-  color: white;
-  font-size: 20px;
-  right: -428px;
-  top: 34px;
- position: relative;
- width: 0%;
-}
-
-
-
-
-
-/* третий блок */
-
-.price3 {
-  margin-left: 216px;
-  margin-top: -57px; 
-}
-
-.nazv3 {
-  margin-top: 5px;
-  margin-left: 50px;
-  border: none;
-  color: white;
-  background: #72140A;
-  border-radius: 10px;
-  text-align: center;
-  width: 16.9%;
- display: inline-block;
-}
-
-.naz3 {
-  color: white;
-  font-size: 20px;
-  right: -428px;
-  top: 19px;
- position: relative;
- width: 0%;
-}
-
-
-
-
-/* Четвертый блок */
-
-.price4 {
-  margin-left: 221px;
-  margin-top: -57px;
-}
-
-
-.nazv4 {
-  margin-top: 5px;
-  margin-left: 49px;
-  border: none;
-  color: white;
-  background:#72140A;
-  border-radius: 10px;
-  text-align: center;
-  width: 16.9%;
- display: inline-block;
-}
-
-.naz4 {
-  color: white;
-  font-size: 20px;
-  right: -428px;
-  top: 30px;
- position: relative;
- width: 0%;
-}
