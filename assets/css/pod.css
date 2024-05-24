@@ -26,6 +26,10 @@ body {
     font-size: 7px;
     opacity: 80%;
     }
+
+    .textpodzag:hover {
+    opacity: 100%;
+    }
     
     .alfa {
     width: 100px;
@@ -61,8 +65,14 @@ body {
 
     .zz {
     display: flex;
+    gap: 20px;
     }
 
     .vktg {
     width: 50px;
+    }
+
+    a {
+    text-decoration: none;
+    color: white;
     }
