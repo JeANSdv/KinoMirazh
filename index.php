@@ -8,7 +8,11 @@
 <div class="slider">
     <div class="slider-line">
         <?php
-        $query = "SELECT f.film_id, f.title, fi.imgw_path, COUNT(ss.session_id) FROM film AS f JOIN `session` AS ss ON f.film_id=ss.film_id JOIN film_imgw AS fi ON f.film_id=fi.film_id GROUP BY f.film_id ORDER BY `COUNT(ss.session_id)` DESC LIMIT 5";
+        $query = "SELECT f.film_id, f.title, fi.imgw_path, COUNT(ss.session_id) 
+        FROM film AS f JOIN `session` AS ss ON f.film_id=ss.film_id 
+        JOIN film_imgw AS fi ON f.film_id=fi.film_id 
+        GROUP BY f.film_id ORDER BY `COUNT(ss.session_id)` DESC LIMIT 5";
+        
         $res = mysqli_query($conn, $query);
         if (!$res) die("war... war never changes");
 
