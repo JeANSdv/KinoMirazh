@@ -31,7 +31,7 @@ if (!$res) die('half-life');
                     <span>$ticket[option_name]</span>
                     <span>Зал: $ticket[number], Ряд: $ticket[row], Место: $ticket[seat]</span>
                     <span class="adress">$ticket[city], Улица $ticket[street], $ticket[building]</span>
-                    <a class="yopta" href="ticket-qr.php">QR для проверки</a>
+                    <a class="yopta" href="ticket-qr.php?id=$ticket[ticket_id]">QR для проверки</a>
                     <a href="controllers/ticket-del.php?id=$ticket[ticket_id]">Отменить билет</a>
                 </div>
                 _TICKET;
